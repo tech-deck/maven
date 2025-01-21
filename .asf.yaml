@@ -12,10 +12,9 @@ github:
     squash: true
     merge: false
     rebase: true
-  autolink_jira:
-    - MNG
-notifications:
-  commits: commits@maven.apache.org
-  issues: issues@maven.apache.org
-  pullrequests: issues@maven.apache.org
-  jira_options: link label
+  autolink_jira: null  # Disable JIRA autolinking
+  notifications:
+    commits: commits@maven.apache.org
+    issues: issues@maven.apache.org
+    pullrequests: issues@maven.apache.org
+    jira_options:  # Remove or comment out the JIRA options if no longer needed
